@@ -4,12 +4,17 @@ import BottomBar from './components/BottomBar'
 import Search from './components/Search'
 import Compose from './components/Compose'
 import Email from './components/Email'
+import Promotion from './components/Promotion'
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Search />
       <StatusBar style="auto" />
+      <Text style={styles.primary}>
+        Primary
+      </Text>
+      <Promotion />
       <View>
         <Email url={"https://placeimg.com/380/480/any"} name="Jane" day="24"/>
         <Email url={"https://placeimg.com/380/470/any"} name="Bob" day="22"/>
@@ -17,7 +22,6 @@ export default function App() {
         <Email url={"https://placeimg.com/380/450/any"} name="Shanna" day="18"/>
         <Email url={"https://placeimg.com/380/487/any"} name="Bernardo" day="15"/>
         <Email url={"https://placeimg.com/380/450/any"} name="Eryn" day="15"/>
-        <Email url={"https://placeimg.com/380/487/any"} name="Bernardo" day="14"/>
       </View>
       <Compose />
       <BottomBar />
@@ -35,5 +39,12 @@ const styles = StyleSheet.create({
   },
   emailBox: {
     alignItems: "center"
+  },
+  primary: {
+    textAlign: "left",
+    color: "#c9c9c9",
+    marginTop: 10,
+    marginRight: "80%",
+    fontSize: 15
   }
 });

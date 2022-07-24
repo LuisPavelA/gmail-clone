@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         display: "flex",
         flexDirection: "row",
         position: "absolute",
-        top: 10,
+        top: 15,
         paddingBottom: 5,
         paddingTop: 5,
         borderRadius: 100,
