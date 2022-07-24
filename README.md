@@ -2,4 +2,4 @@
 
 
 ### Final Result
-<img alt="Final Result" src="/gmail_clone.jpeg">
+<img alt="Final Result" src="/final_result.jpeg" width="100">
