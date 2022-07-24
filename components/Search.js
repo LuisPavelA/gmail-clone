@@ -24,8 +24,7 @@ export default function Search() {
                 keyboardType="text"
                 placeholderTextColor={'#c9c9c9'}
             />
-            <Image source={{uri: 'https://reactjs.org/logo-og.png'}}
-       style={styles.userIcon} />
+            <Image source={{uri: 'https://reactjs.org/logo-og.png'}} style={styles.userIcon} />
       </View>
     );
 }

@@ -41,7 +41,8 @@ const styles = StyleSheet.create({
         position: "absolute",
         bottom: 0,
         paddingBottom: 10,
-        paddingTop: 10
+        paddingTop: 10,
+        alignItems: "center"
     },
     text: {
         color: "#c9c9c9",
@@ -49,11 +50,13 @@ const styles = StyleSheet.create({
         fontSize: 20
     },
     icon: {
-        alignItems: "center"
+        alignItems: "center",
+        marginHorizontal: "auto"
     },
     selectedIcon: {
-        backgroundColor: "#376182",
+        backgroundColor: "#1a4566",
         paddingHorizontal: 15,
-        borderRadius: 10
+        borderRadius: 10,
+        fontWeight: "900"
     }
 })
