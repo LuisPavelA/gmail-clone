@@ -2,4 +2,4 @@
 
 
 ### Final Result
-<img alt="Final Result" src="/final_result.jpeg" width="100">
+<img alt="Final Result" src="/final_result.jpeg" width="200">
